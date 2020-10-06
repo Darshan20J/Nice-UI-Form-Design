@@ -1,0 +1,30 @@
+.full-screen {
+    width: 100%;
+    height: 100vh; /* covers full screen height */
+    background-image: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);
+}
+
+.bg-clr {
+    background-image: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);
+    box-shadow: 0 0 20px #000;
+}
+
+.pos-abs {
+    position: absolute;
+}
+
+.pos-rel {
+    position: relative;
+    top: 20%;
+}
+
+/*  In CSS We have Position Property that can be used to position the elements within the parent element */
+/* 
+    1. position: static;
+    2. position: relative;
+    3. position: absolute;
+
+    its better you check out the tutorials on w3schools.com
+
+    Thank You!!
+*/
